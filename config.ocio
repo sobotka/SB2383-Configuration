@@ -5,7 +5,7 @@ environment:
 search_path: LUTs
 strictparsing: true
 luma: [0.2126, 0.7152, 0.0722]
-description: A dangerous picutre formation chain designed for Eduardo Suazo and Chris Brejon.
+description: A dangerous picture formation chain designed for Eduardo Suazo and Chris Brejon.
 
 roles:
   color_picking: sRGB
@@ -61,7 +61,7 @@ colorspaces:
     from_scene_reference: !<GroupTransform>
       children:
         - !<RangeTransform> {min_in_value: 0, min_out_value: 0}
-        - !<MatrixTransform> {matrix: [0.892117703985358, 0.0682709287349655, 0.0396113672796751, 0, 0.0504186619847999, 0.878895737795481, 0.0706856002197205, 0, 0.0333124149657634, 0.0572705341147235, 0.909417050919513, 0, 0, 0, 0, 1]}
+        - !<MatrixTransform> {matrix: [0.913500795022407, 0.0447436243802427, 0.0417555805973489, 0, 0.080871882143209, 0.815474287341219, 0.103653830515573, 0, 0.0359397231776181, 0.0342846039509055, 0.929775672871476, 0, 0, 0, 0, 1]}
         - !<AllocationTransform> {allocation: lg2, vars: [-12.47393, 4.026069]}
 
   - !<ColorSpace>
