@@ -132,7 +132,7 @@ colorspaces:
         - !<ColorSpaceTransform> {src: Linear BT.709, dst: AgX Log (SB2383)}
         - !<FileTransform> {src: AgX_Default_Contrast.spi1d}
         - !<ExponentTransform> {value: 2.2}
-        - !<MatrixTransform> {matrix: [0.913500795022407, 0.0447436243802427, 0.0417555805973487, 0, 0.0808718821432089, 0.815474287341219, 0.103653830515572, 0, 0.0359397231776181, 0.0342846039509055, 0.929775672871476, 0, 0, 0, 0, 1], direction: inverse}
+        - !<MatrixTransform> {matrix: [1, -2.22044604925031e-16, -1.11022302462516e-16, 0, 1.66533453693773e-16, 1, 4.16333634234434e-17, 0, 0, 0, 1, 0, 0, 0, 0, 1], direction: inverse}
         - !<ExponentTransform> {value: 2.2, direction: inverse}
 
   - !<ColorSpace>
